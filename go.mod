@@ -16,3 +16,5 @@ require (
 	golang.org/x/net v0.0.0-20170726083632-f5079bd7f6f7 // indirect
 	golang.org/x/sys v0.0.0-20170728174421-0f826bdd13b5 // indirect
 )
+
+replace go.mozilla.org/pkcs7 v0.0.0-20210826202110-33d05740a352 => github.com/omorsi/pkcs7 v0.0.0-20210720152925-241271b3ee40
